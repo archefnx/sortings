@@ -12,6 +12,7 @@ func main() {
 	//res := sorts.QuickSort(arr, 0, len(arr)-1)
 	//res := sorts.InsertionSort(arr)
 	//res := sorts.SelectionSort(arr)
-	res := sorts.CountingSort(arr)
+	//res := sorts.CountingSort(arr)
+	res := sorts.BubbleSort(arr)
 	fmt.Println(res)
 }
